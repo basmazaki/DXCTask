@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div class="m-5">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Category</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prd of prdList">
+        <th scope="row">
+          <a [routerLink]="['/productDetails', prd.id]"> {{prd.id}}</a>
+        </th>
+        <td>{{prd.name}}</td>
+        <td>{{prd.category}}</td>
+        <td>{{prd.price | currency:'EGP':true:'1.0-2'}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

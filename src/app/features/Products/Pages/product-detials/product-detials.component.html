@@ -1,0 +1,30 @@
+<app-header></app-header>
+
+<div class="card">
+  <div class="card-body">
+
+    <h5 class="card-title">{{prd?.name}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{prd?.category}}</h6>
+    <p class="card-text">{{prd?.description}}
+    </p>
+    <span>{{prd?.Specifications}}</span>
+    <p class="card-text">
+      Available In Stock:
+      <span class="pl-2 pr-2">{{prd?.Available}}</span>
+    </p>
+    <p class="card-text">
+      Sold By:
+      <span class="pl-2 pr-2">{{prd?.SoldBy}}</span>
+    </p>
+    <p class="card-text">
+      Price:
+      <span class="pl-2 pr-2">
+        {{prd?.price | currency:'EGP':true:'1.0-2'}}
+      </span>
+    </p>
+    <button (click)="addToCard()" class="btn btn-success">Add To Card</button>
+  </div>
+</div>
+<div class="btnBack">
+  <button (click)="backClicked()" class="btn btn-primary ">Back</button>
+</div>

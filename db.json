@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "DRESSES",
+      "category": "Fashion",
+      "price":600
+    },
+    {
+      "id": "2",
+      "name": "BLAZERS",
+      "category": "Fashion",
+      "price":800
+    },
+    {
+      "id": "3",
+      "name": "SHIRTS",
+      "category": "Fashion",
+      "price":700
+    },
+    {
+      "id": "4",
+      "name": "BLOUSES",
+      "category": "Fashion",
+      "price":500
+    }
+  ,
+  {
+    "id": "5",
+    "name": "TROUSERS",
+    "category": "Fashion",
+    "price":400
+  }
+  ,
+  {
+    "id": "6",
+    "name": "HOME WEAR",
+    "category": "Fashion",
+    "price":300
+  }
+  ],
+  "productDetails":[
+    {
+      "id": "1",
+      "name": "DRESSES",
+      "category": "Fashion",
+      "price":600,
+      "SoldBy":"Ahmed",
+      "description":"This is good product",
+      "Specifications":"xxxx",
+      "Available":"yes"
+
+    },
+    {
+      "id": "2",
+      "name": "BLAZERS",
+      "category": "Fashion",
+      "price":800,
+      "SoldBy":"Ahmed",
+      "description":"This is good product",
+      "Specifications":"xxxx",
+      "Available":"yes"
+    },
+    {
+      "id": "3",
+      "name": "SHIRTS",
+      "category": "Fashion",
+      "price":700,
+      "SoldBy":"Ahmed",
+      "description":"This is good product",
+      "Specifications":"xxxx",
+      "Available":"yes"
+    },
+    {
+      "id": "4",
+      "name": "BLOUSES",
+      "category": "Fashion",
+      "price":500,
+      "SoldBy":"Ahmed",
+      "description":"This is good product",
+      "Specifications":"xxxx",
+      "Available":"yes"
+    }
+  ,
+  {
+    "id": "5",
+    "name": "TROUSERS",
+    "category": "Fashion",
+    "price":400,
+    "SoldBy":"Ahmed",
+    "description":"This is good product",
+    "Specifications":"xxxx",
+    "Available":"yes"
+  }
+  ,
+  {
+    "id": "6",
+    "name": "HOME WEAR",
+    "category": "Fashion",
+    "price":300,
+    "SoldBy":"Ahmed",
+    "description":"This is good product",
+    "Specifications":"xxxx",
+    "Available":"yes"
+  }
+  ]
+
+}
